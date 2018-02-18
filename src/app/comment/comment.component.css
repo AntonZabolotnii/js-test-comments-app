@@ -1,0 +1,19 @@
+:host {
+    display: flex;
+    max-width: 80%;
+    margin: -1px 0 -1px 20px;
+}
+.cell {
+    padding: 10px;
+    width: 33%;
+    border: 1px solid grey;
+}
+.cell:nth-child(2) {
+    border-left: none;
+}
+.cell:first-child {
+    border-right: none;
+}
+.cell:nth-child(2n+1) {
+    margin: 0 -1px 0 -1px;
+}

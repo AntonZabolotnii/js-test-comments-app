@@ -1,0 +1,5 @@
+<span>{{dayData.date}}</span>
+<app-comment
+    *ngFor="let comment of dayData.comments"
+    [comment]="comment">
+</app-comment>
